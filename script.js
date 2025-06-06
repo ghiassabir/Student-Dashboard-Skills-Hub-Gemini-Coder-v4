@@ -54,6 +54,13 @@ let currentStudentData = {
             }
         ]
     },
+    
+    khanAcademy: {
+        reading: [], // Make sure this is an array
+        writing: [], // <-- THIS LINE MUST BE PRESENT AND AN ARRAY
+        math: []     // <-- THIS LINE MUST BE PRESENT AND AN ARRAY
+    },
+    
     // Updated skills to include attempted status for sorting
     skills: {
         reading: [
